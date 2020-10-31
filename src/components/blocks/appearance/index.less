@@ -1,0 +1,32 @@
+.appearance__wrapper {
+    p {
+        text-align: center;
+        color: var(--slide);
+    }
+
+    .ant-slider {
+
+        .ant-slider-rail, .ant-slider-track, .ant-slider-step{
+            height: 2px;
+        }
+        .ant-slider-track {
+            background-color: unset;
+            background-image: linear-gradient(to right, #caa5e9, #6193fe);
+        }
+
+
+        
+    }
+
+    .ant-slider-handle {
+        width: 10px;
+        height: 10px;
+        margin-top: -4px;
+        background-color: var(--primary);
+        border: unset;
+
+        &:focus {
+            box-shadow: rgba(0, 0, 0, 0.08);
+        }
+    }
+}

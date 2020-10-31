@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+    <defs>
+        <linearGradient id="vghzynaf8a" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#C6A4E9"/>
+            <stop offset="100%" stop-color="#7F98F8"/>
+        </linearGradient>
+        <linearGradient id="19vz2wvh3b" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#8B9AF6"/>
+            <stop offset="100%" stop-color="#7F98F8"/>
+        </linearGradient>
+        <linearGradient id="6eqe2cp0lc" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#C9A5E9"/>
+            <stop offset="100%" stop-color="#5B91FE"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <path d="M0 0H18V18H0z" transform="translate(-20 -343) translate(0 328) translate(20 15)"/>
+                            <g>
+                                <g>
+                                    <path fill="url(#vghzynaf8a)" d="M13.473 0L15 1.55l-1.527 2.723h-1.37L10.369 6 9 4.638l1.735-1.728V1.55L13.473 0z" transform="translate(-20 -343) translate(0 328) translate(20 15) translate(2 2) translate(0 1)"/>
+                                    <path fill="url(#19vz2wvh3b)" d="M2.024 8.01L4.68 8l-.018 5.048c-.003.735-.598 1.33-1.334 1.333-.728.003-1.32-.585-1.323-1.313v-.01l.019-5.048z" transform="translate(-20 -343) translate(0 328) translate(20 15) translate(2 2) translate(0 1) rotate(45 3.34 11.193)"/>
+                                </g>
+                                <path fill="url(#6eqe2cp0lc)" d="M3.61 0c1.994 0 3.611 1.678 3.611 3.748 0 .643-.157 1.25-.432 1.779l6.254 6.492c.534.555.534 1.433 0 1.987-.51.529-1.351.545-1.88.035l-.035-.035-6.383-6.625-.05-.058c-.342.112-.707.172-1.085.172C1.616 7.495 0 5.817 0 3.748c0-.535.108-1.043.302-1.503l1.88 1.96 1.853-1.93L2.155.316C2.6.113 3.093 0 3.61 0z" transform="translate(-20 -343) translate(0 328) translate(20 15) translate(2 2)"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
