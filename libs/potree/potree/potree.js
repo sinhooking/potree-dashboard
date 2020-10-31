@@ -13755,7 +13755,7 @@ void main() {
 				xhr.open('GET', url, true);
 
 				xhr.onreadystatechange = function () {
-					if (xhr.readyState === 4 && (xhr.status === 200 || xhr.status === 0)) {
+					if (xhr.readyState === 4 && (xhr.status === 200 || xhr.status === 0 || xhr.status === 404)) {
 						let fMno = JSON.parse({
 							"version": "1.4",
 							"octreeDir": "data",
