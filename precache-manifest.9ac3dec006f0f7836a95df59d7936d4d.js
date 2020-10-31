@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e6b5d541d7147222b411713c86d081d0",
+    "revision": "25a6ed90f546e82f33fa007056bb29ee",
     "url": "/potree-dashboard/index.html"
   },
   {
-    "revision": "e7ab95534163689bb20d",
-    "url": "/potree-dashboard/static/css/main.d6687d94.chunk.css"
+    "revision": "bca41e51ca680ab49178",
+    "url": "/potree-dashboard/static/css/main.f5ea102d.chunk.css"
   },
   {
     "revision": "c88905fd326dcc662b04",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/potree-dashboard/static/js/2.a0fb9102.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e7ab95534163689bb20d",
-    "url": "/potree-dashboard/static/js/main.b80f2e69.chunk.js"
+    "revision": "bca41e51ca680ab49178",
+    "url": "/potree-dashboard/static/js/main.efa61ff9.chunk.js"
   },
   {
     "revision": "c02bf0a4559e6f3e8ee4",

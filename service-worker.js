@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/potree-dashboard/precache-manifest.5b1249a11823ee35158a4ffdfe628e0c.js"
+  "/potree-dashboard/precache-manifest.9ac3dec006f0f7836a95df59d7936d4d.js"
 );
 
 self.addEventListener('message', (event) => {
