@@ -2,9 +2,19 @@ const Cesium = window.Cesium;
 const THREE = window.THREE;
 const proj4 = window.proj4;
 const Potree = window.Potree;
-const $ = window.$;
+
+const isReadyLibs = () => (Cesium && THREE && proj4 && Potree) ? true: false;
+
+let tm;
 export function potreeInit(reactSetViewer) {
 
+	if (!isReadyLibs()) {
+		clearTimeout(tm)
+		return tm = setTimeout(() => {
+			potreeInit(reactSetViewer)
+		}, 1000);
+	}
+	
     window.cesiumViewer = new Cesium.Viewer('cesiumContainer', {
         useDefaultRenderLoop: false,
         animation: false,
@@ -48,17 +58,17 @@ export function potreeInit(reactSetViewer) {
 	// 	<a href="https://www.openstreetmap.org" target="_blank">OpenStreetMap</a> map below.<br>
 	// 	Point cloud courtesy of <a href="http://riegl.com/" target="_blank">Riegl</a><br>`);
 
-	window.potreeViewer.loadGUI(() => {
-		window.potreeViewer.setLanguage('en');
-		$("#menu_appearance").next().show();
-		$("#menu_tools").next().show();
-		$("#menu_scene").next().show();
-		window.potreeViewer.toggleSidebar();
-    });
+	// window.potreeViewer.loadGUI(() => {
+	// 	window.potreeViewer.setLanguage('en');
+	// 	$("#menu_appearance").next().show();
+	// 	$("#menu_tools").next().show();
+	// 	$("#menu_scene").next().show();
+	// 	window.potreeViewer.toggleSidebar();
+    // });
     
     reactSetViewer(window.potreeViewer)
 	
-	Potree.loadPointCloud("http://5.9.65.151/mschuetz/potree/resources/pointclouds/riegl/retz/cloud.js", "Retz", function(e){
+	Potree.loadPointCloud("/model/voltotal/cloud.js", "Retz", function(e){
 		let scene = window.potreeViewer.scene;
 		
 		scene.addPointCloud(e.pointcloud);
@@ -75,12 +85,9 @@ export function potreeInit(reactSetViewer) {
 		material.weightElevation = 1.0;
 		
 		scene.view.position.set(570975.577, 5398630.521, 1659.311);
-		scene.view.lookAt(570115.285, 5400866.092, 30.009);
+		scene.view.lookAt(569377.402752, 5400450.599046, 30.009);
 
 		Potree.measureTimings = true;
-
-		
-		
 
 		//let pointcloudProjection = e.pointcloud.projection;
 		let pointcloudProjection = "+proj=utm +zone=33 +ellps=WGS84 +datum=WGS84 +units=m +no_defs";
