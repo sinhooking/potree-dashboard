@@ -2,7 +2,8 @@
 
 ## Potree + React + ant.design
 
-### design, development by  haewoo.kim, shinhoo.kim
+### design by haewoo.kim
+### development by shinhoo.kim
 
 ## Ref.
 
